@@ -23,6 +23,7 @@ The Plugin also provides a small Guide on how to enable Source-Support in a BP p
    - [The Characters](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-characters)
    - [The Types](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-types)
 + [Planned for future Updates](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#planned)
++ [Legals](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#Legals)
 
 
 
@@ -301,7 +302,22 @@ Here are all Events and Types the Helper generates with the Categories ```Basic`
 
 
 
-### Planned
+## Planned
 (List extends by Suggestions)
 
 + Get Events to receive all Attribute Values of a Category ( Get<Category>Values )
+
+
+
+
+
+
+
+
+
+
+## Legals
+
+I wrote this Doc for version 1.0 of the Plugin. All functionalities and changes to the project sources have been tested. The Plugin does not change any of the Unreal Configs, nor the code of the projects other Sourcefiles. 
+
+For further Support, contact me on my [Discord](https://discord.gg/zE9fBx8NfR) in the Support Channel of the GAS helper Plugin (verified Buyers only)
