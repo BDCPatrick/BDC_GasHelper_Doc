@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BDC_Gashelper_Icon.png" alt="Project Icon">
+  <img src="Images/BDC_Gashelper_Icon.png" alt="Project Icon">
 </p>
 
 # GAS HELPER
@@ -44,19 +44,19 @@ Epic Games provides a good Doc about, how to Setup Visual Studio for Unreal Engi
 If this is the first time you want to open an EditorutilityWidget from a Plugin Directory, you need to enable the ```Show Plugin Content``` Option in the Content Browser Settings.
 You can find it here:
 <p align="center">
-  <img src="GasHelper_01.png" alt="None">
+  <img src="Images/GasHelper_01.png" alt="None">
 </p>
 
 After activating the Checkbox, the ```Plugins``` Folder gets visible in the Content browser.
 
 Open the Plugins Folder and inside, open the ```BDC_Gas_Helper_Content``` Folder.
 <p align="center">
-  <img src="GasHelper_02.png" alt="None">
+  <img src="Images/GasHelper_02.png" alt="None">
 </p>
 
 Rightclick the "UI_BDC_Gas_Helper" Asset (the only one with a Thumbnail) and select ```Run Editor Utility Widget```
 <p align="center">
-  <img src="GasHelper_03.png" alt="None">
+  <img src="Images/GasHelper_03.png" alt="None">
 </p>
 
 
@@ -64,7 +64,7 @@ Rightclick the "UI_BDC_Gas_Helper" Asset (the only one with a Thumbnail) and sel
 ### Activate C++
 When running the Widget and no Source code is enabled in your Project, the Widget will guide you through the Process of Enabling it.
 <p align="center">
-  <img src="GasHelper_04.png" alt="None">
+  <img src="Images/GasHelper_04.png" alt="None">
 </p>
 
 **Keep in Mind**: You need to have an IDE Software installed, that can handle C++ Projects, like f.e.: [Visual Studio (Community)](https://visualstudio.microsoft.com/de/vs/community/) or [Jetbrain Rider](https://www.jetbrains.com/de-de/rider/).
@@ -78,12 +78,12 @@ If GAS is not activated yet, you will be guided to the Actiavtaion Page.
 
 On this Page, the Widget will edit your *.Build.cs and your *.uproject File to place in the GAS Dependencies. This will happen automatically when doubleclicking the ```Activate GAS``` Button.
 <p align="center">
-  <img src="GasHelper_05.png" alt="None">
+  <img src="Images/GasHelper_05.png" alt="None">
 </p>
 
 Just wait until the needed Lines are added to the Files and follow the Instructions on the final Page.
 <p align="center">
-  <img src="GasHelper_06.png" alt="None">
+  <img src="Images/GasHelper_06.png" alt="None">
 </p>
 
 You are now ready to start using GAS.
@@ -92,7 +92,7 @@ You are now ready to start using GAS.
 ## The Widget
 ### Tab-Settings
 <p align="center">
-  <img src="GasHelper_11.png" alt="None">
+  <img src="Images/GasHelper_11.png" alt="None">
 </p>
 The Settings are the first tab of the Widget and allows you to change the Filenames of the out coming Source files, as well as lets you decide, what files should be generated, if old files should be backuped and what Attribute is the actual Health Attribute.
 Let´s get though some Points here:
@@ -124,7 +124,7 @@ Let´s get though some Points here:
 
 ### Tab-Attributes
 <p align="center">
-  <img src="GasHelper_12.png" alt="None">
+  <img src="Images/GasHelper_12.png" alt="None">
 </p>
 In the ```Edit Attributes``` Tab, you can add, edit and remove Attributes from the AttributeSet List.
 
@@ -137,7 +137,7 @@ When adding a new Attribute, it is always added to the Category ```Uncategorized
 
 ### Attributes
 <p align="center">
-  <img src="GasHelper_12-2.png" alt="None">
+  <img src="Images/GasHelper_12-2.png" alt="None">
 </p>
 Each Attribute has Settings you can change. Let's take a look at them:
 
@@ -164,7 +164,7 @@ Each Attribute has Settings you can change. Let's take a look at them:
 
 ### Tab-Categories
 <p align="center">
-  <img src="GasHelper_13.png" alt="None">
+  <img src="Images/GasHelper_13.png" alt="None">
 </p>
 The Categories Tab allows you to add and remove Categories for the Attributes.
 
@@ -179,7 +179,7 @@ The ```Uncategorized``` Category can not be edited or removed!
 
 ### Tab-Ability
 <p align="center">
-  <img src="GasHelper_14.png" alt="None">
+  <img src="Images/GasHelper_14.png" alt="None">
 </p>
 The Ability Tab lets you create, edit and remove variables to the GameplayAbility Class. Those variables are editable via the Blueprint Editor, too.
 
@@ -194,7 +194,7 @@ Those variables can not be edited or removed!
 
 ### Ability Variables
 <p align="center">
-  <img src="GasHelper_14-2.png" alt="None">
+  <img src="Images/GasHelper_14-2.png" alt="None">
 </p>
 Let's take a look at the editable Fields of a Variable..
 
@@ -216,11 +216,11 @@ Let's take a look at the editable Fields of a Variable..
 ## The Generator
 The Generator starts its work when you hit the ```Generate GAS Code``` Button three times. You can't do much here. The Widget shows you the current processed Step and finishes in a final Page, where you confirm the Notice of the Page.
 <p align="center">
-  <img src="GasHelper_15.png" alt="None">
+  <img src="Images/GasHelper_15.png" alt="None">
 </p>
 
 <p align="center">
-  <img src="GasHelper_16.png" alt="None">
+  <img src="Images/GasHelper_16.png" alt="None">
 </p>
 
 
@@ -247,12 +247,12 @@ The second one, the Character Plus, is the interesting one. It only gets generat
 When you create a new Character in the Unreal Editor, you want to make sure to use this Class as Parent for your Character, instead of the default ACharacter.
 
 <p align="center">
-  <img src="GasHelper_21.png" alt="None">
+  <img src="Images/GasHelper_21.png" alt="None">
 </p>
 
 If you already created a Character that has the default Character from Unreal as Base, you can reparent it:
 <p align="center">
-  <img src="GasHelper_22.png" alt="None">
+  <img src="Images/GasHelper_22.png" alt="None">
 </p>
 
 + 1: Open your Character Blueprint
@@ -274,7 +274,7 @@ And an Enum will be generated, containing the Names of All Attributes in the Att
 
 With these Variable types, you can have Dropdowns, Lists and Returns, containing the actual Attributes, without you need to remember each name.
 <p align="center">
-  <img src="GasHelper_24.png" alt="None">
+  <img src="Images/GasHelper_24.png" alt="None">
 </p>
 
 The AttributeSPlit is a new Variable Type, to make the work with Current + Max Values of Attributes a bit easier.
