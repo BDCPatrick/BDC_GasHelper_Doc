@@ -3,6 +3,8 @@
 </p>
 
 # GAS HELPER
+The GAS helper Plugin is an Editor Utility Widget that allows to add, edit and remove Attributes, Get<Attribute> Value Events and GameplayAbility Variables inside the Unreal Editor, without repetitive Coding in the Sourcefiles of your Project.
+The Plugin also provides a small Guide on how to enable Source-Support in a BP project and writes the GameplayAbilitySystem needed Dependencies into the Build.cs and uproject file.
 
 + [Installing the Plugin](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#installing-the-plugin)
 + [Getting started for a BP-only project](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#getting-started-for-a-bp-only-project)
@@ -281,5 +283,5 @@ The AttributeSPlit is a new Variable Type, to make the work with Current + Max V
 
 Here is an Example of the difference between an Attribute, that only has a current value (Attack), and an Attribute with a Maximum Value (Health):
 <p align="center">
-  <img src="GasHelper_23.png" alt="None">
+  <img src="Images/GasHelper_23.png" alt="None">
 </p>
