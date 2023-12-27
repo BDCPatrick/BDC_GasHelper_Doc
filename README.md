@@ -279,9 +279,14 @@ With these Variable types, you can have Dropdowns, Lists and Returns, containing
   <img src="Images/GasHelper_24.png" alt="None">
 </p>
 
-The AttributeSPlit is a new Variable Type, to make the work with Current + Max Values of Attributes a bit easier.
+The AttributeSplit is a new Variable Type, to make the work with Current + Max Values of Attributes a bit easier.
 
 Here is an Example of the difference between an Attribute, that only has a current value (Attack), and an Attribute with a Maximum Value (Health):
 <p align="center">
   <img src="Images/GasHelper_23.png" alt="None">
+</p>
+
+Here are all Events and Types the Helper generates with the Categories ```Basic``` and ```Combat``` and the Attributes Health, Mana and Attack - Where Health and Mana do have Max.
+<p align="center">
+  <img src="Images/GasHelper_25.png" alt="None">
 </p>
