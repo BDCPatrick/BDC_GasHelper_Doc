@@ -11,6 +11,7 @@
    - [Activate C++](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#run-the-plugin-widget)
 + [Activate the GameplayAbilitySystem](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#activate-the-gameplayabilitysystem)
 + [The Widget](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-widget)
+   - [Tab-Settings](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#tab-settings)
 
 
 
@@ -78,3 +79,30 @@ Just wait until the needed Lines are added to the Files and follow the Instructi
 You are now ready to start using GAS.
 
 ## The Widget
+### Tab-Settings
+<p align="center">
+  <img src="GasHelper_11.png" alt="None">
+</p>
+The Settings are the first tab of the Widget and allows you to change the Filenames of the out coming Source files, as well as lets you decide, what files should be generated, if old files should be backuped and what Attribute is the actual Health Attribute.
+Let´s get though some Points here:
+
+```Current API```: It is always the Header of the Widget, regardless of what Tab you are in. The API_Name of your Project can be different from your project's name. You can edit the API name with the Pencil Button at the right, but it's not recommended to do so.
+
+```Source Path```: This is the actual Path to the Source Directory of your Project. Normally, it is ```<ProjectRoot>/Source/<ProjectName>```. You can define a different Sourcepath, but it's recommended to keep the default one.
+
+```The Tabs```: You can choose between Settings, Attributes, Categories, and Ability. Each tab leads you to a different Window of Lists and Settings. We come back to the other Tabs later.
+
+```The "R" Button```: This Buttons refreshes the Lists you will edit later, if you want to refresh them amnually.
+
+```Generate GAS Code```: This Button is elemental. After clicking it 3 times, the Helper will start generating the GAS Files, according to your Lists and entries. This process can not be cancelled!
+
+```The Filenames```: While the Widget comes with Default Filenames for the generated Files, it's recommended to write your own ones. The colored Progress bars will give you a hint on how many Signs are the maximum (currently 32). You shouldn't add an Extension to the Filenames, since the Generator will add them by itself.
+        **Keep in Mind:** The Files with the given Name will get overwritten by the Generator. Make sure to not use a Name twice or add a Name of an existing Sourcefile!
+
+```Health Attribute```: When one or more Attributes are added later, you can come back here and set the Health Attribute that should be used by the IsAlive function for the Character. By Default, this is set to the first Attribute you are adding. The generator will cancel its process, when this value is not set.
+
+```Toggles```: You don't want the Helper to generate specific Files, cause you created some by yourself or plan to do so? no Problem, simply switch the Generating of specific Files On or OFF.
+
+```Copy Backup```: You want to keep this set to be activated. If you accidentally generated files and overwrite your edits, the backups of the old ones are copied over to ```<ProjectRoot>/SourceBackup/```, so you can rescue your Changes.
+
+```make Config pretty```: This is just for People who want to edit the Config.json, that is created by the Helper Plugin. It converts the One-Liner Code of the Json file into a formatted Json Tree.
