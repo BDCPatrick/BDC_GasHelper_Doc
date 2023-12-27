@@ -22,6 +22,7 @@ The Plugin also provides a small Guide on how to enable Source-Support in a BP p
 + [The generated Files](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-generated-files)
    - [The Characters](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-characters)
    - [The Types](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#the-types)
++ [Planned for future Updates](https://github.com/BDCPatrick/BDC_GasHelper_Doc/edit/main/README.md#planned)
 
 
 
@@ -290,3 +291,17 @@ Here are all Events and Types the Helper generates with the Categories ```Basic`
 <p align="center">
   <img src="Images/GasHelper_25.png" alt="None">
 </p>
+
+
+
+
+
+
+
+
+
+
+### Planned
+(List extends by Suggestions)
+
++ Get Events to receive all Attribute Values of a Category ( Get<Category>Values )
