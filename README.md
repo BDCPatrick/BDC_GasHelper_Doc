@@ -28,9 +28,9 @@ The Plugin also provides a small Guide on how to enable Source-Support in a BP p
 
 
 ## Installing the Plugin
-After you purchased the Plugin, head to the EpicGames Launcher, to the Unreal Engine Tab, and open your Library there. In the "Vault" Section, search for the Gas Helper Plugin and add it to your Project.
+After you purchased the Plugin, head to the EpicGames Launcher, to the Unreal Engine Tab, and open your Library there. In the "Vault" Section, search for the Gas Helper Plugin and install it to your Engines.
 
-**Be aware of**: The Gas helper Plugins only work for Unreal Engine Version 5.3 and newer, since it depends on Plugins that are only available for those Versions.
+**Be aware of**: The Gas helper Plugins only work for Unreal Engine Version 5.3 and newer.
 
 
 
@@ -45,15 +45,15 @@ Epic Games provides a good Doc about, how to Set up Visual Studio for Unreal Eng
 
 
 ### Run the Plugin Widget
-If this is the first time you want to open an EditorUtilityWidget from a Plugin Directory, you need to enable the ```Show Plugin Content``` Option in the Content Browser Settings.
+If this is the first time you want to open an EditorUtilityWidget from a Engine/Plugins Directory, you need to enable the ```Show Engine Content``` and ```Show Plugin Content``` Option in the Content Browser Settings.
 You can find it here:
 <p align="center">
   <img src="Images/GasHelper_01.png" alt="None">
 </p>
 
-After activating the Checkbox, the ```Plugins``` Folder gets visible in the Content browser.
+After activating the Checkboxes, the ```Plugins``` Folder in the Engine Folder gets visible in the Content browser.
 
-Open the Plugins Folder and inside, open the ```BDC_Gas_Helper_Content``` Folder.
+Open the Plugins Folder and inside open the ```BDC_Gas_Helper_Content/UI``` Folder.
 <p align="center">
   <img src="Images/GasHelper_02.png" alt="None">
 </p>
